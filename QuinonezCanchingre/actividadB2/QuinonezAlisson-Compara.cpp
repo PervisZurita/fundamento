@@ -10,5 +10,6 @@ int main ()
 		if(A>B) { cout<<"A es mayor";
 		}else{ cout<<"B es mayor";
 		}
-	}
+	} 
+	return 0;
 }
