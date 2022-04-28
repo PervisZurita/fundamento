@@ -2,13 +2,13 @@
 using namespace std;
 int main ()
 {
-	float A,B;
-	cout<<"ingrese los valores A B :"; cin>>A>>B;
-	if(A==B) {
+	float a,b;
+	cout<<"ingrese los valores a b :"; cin>>a>>b;
+	if(a==b) {
 		cout<<"son iguales:";
 	}else{
-		if(A>B) { cout<<"A es mayor";
-		}else{ cout<<"B es mayor";
+		if(a>b) { cout<<"a es mayor";
+		}else{ cout<<"b es mayor";
 		}
 	} 
 	return 0;
