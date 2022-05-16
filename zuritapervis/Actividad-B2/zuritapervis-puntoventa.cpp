@@ -1,3 +1,10 @@
+//=============================================
+//===========Nomnbre del programa: punto de venta 
+//===========Archivo: zuritapervis-puntoventa.cpp
+//===========Pervis y coffee
+//===========fecha de elaboracion: 29-04-2022
+//===========fecha de actualizacion: 15-05-2022
+//==============================================
 #include<iostream>
 using namespace std;
 int main ()
@@ -17,6 +24,7 @@ int main ()
 	cout<<"su valor a pagar es de:"<<vf<<endl;
 	cout<<"tuvo un iva de:"<<viva<<endl;
 cout<<"y con un descuento de :"<<vdes;
-	return 0;
-}
+	cout<<"CREATED BY PERVIS ZURITA";
+return 0;
+
 
