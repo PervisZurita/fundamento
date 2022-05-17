@@ -1,6 +1,6 @@
 //================================================
 //==> Nombre del programa: Suma de dos número
-//==> Archivo : suman.cpp
+//==> Archivo : QuinonezAlisson-SumaN.cpp
 //==>Autor: Alisson Quñonez
 //==>Fecha de elaboración:2022-04-29
 //==>Fecha ultima actualización:2022-05-17
@@ -20,7 +20,7 @@ do{
 		cout<<"suma total:"<<ac_a;
 cout<<endl<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa: Suma de dos número"<<endl;
-cout<<"//==> Archivo : suman.cpp"<<endl;
+cout<<"//==> Archivo : QuinonezAlisson-SumaN.cpp"<<endl;
 cout<<"//==>Autor: Alisson Quiñonez"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-29"<<endl;
 cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;
