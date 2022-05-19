@@ -7,7 +7,7 @@
 using namespace std;
 int main()
 {
-	int PV_n,PV_c,PV_c,PV_c2,PV_cl,PV_cz;
+	int PV_n,PV_c,PV_c1,PV_c2,PV_cl,PV_cz;
 	float PV_x,PV_al,PV_a,PV_a1,PV_a2,PV_az;
 	PV_c=0;
 	PV_c1=0;
@@ -42,3 +42,5 @@ int main()
 		cout<<"Cantidad total en dinero de las monedas de $0.25: "<<PV_a1<<endl;
 		return 0;
 }
+
+
