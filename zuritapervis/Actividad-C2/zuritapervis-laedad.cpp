@@ -6,31 +6,29 @@
 #include<iostream>
 using namespace std;
 int main (){
-	int ZP_aa,ZP_ma,ZP_da,ZP_an,ZP_mn,ZP_dn,ZP_a,ZP_m,ZP_d;
-	cin>>ZP_aa>>ZP_ma>>ZP_da>>ZP_an>>ZP_mn>>ZP_dn;
-	if(ZP_da>=ZP_dn){
-		ZP_d=ZP_da-ZP_dn;
+	int PV_aa,PV_ma,PV_da,PV_an,PV_mn,PV_dn,PV_a,PV_m,PV_d;
+	cin>>PV_aa>>PV_ma>>PV_da>>PV_an>>PV_mn>> PV_dn;
+	if(PV_da>=PV_dn){
+		PV_d=PV_da-PV_dn;
 	}
 	else{
-		ZP_ma=ZP_ma+1;
-		ZP_da=ZP_da+30;
-		ZP_d=ZP_da-ZP_dn;
+		PV_ma=PV_ma+1;
+		PV_da=PV_da+30;
+		PV_d=PV_da-ZP_dn;
 	}
-	if(ZP_ma>=ZP_mn){
-		ZP_m=ZP_ma-ZP_mn;
+	if(PV_ma>=PV_mn){
+		PV_m=PV_ma-PV_mn;
 	}
 	else{
-		ZP_aa=ZP_aa-1;
-		ZP_ma=ZP_ma+12;
-		ZP_m=ZP_ma-ZP_mn;
+		PV_aa=PV_aa-1;
+		PV_ma=PV_ma+12;
+		PV_m=PV_ma-PV_mn;
 	}
-	ZP_a=ZP_aa-ZP_a;
-	cout<<ZP_a<<endl;
-	cout<<ZP_m<<endl;
-	cout<<ZP_d<<endl;
+	PV_a=PV_aa-PV_a;
+	cout<<PV_a<<endl;
+	cout<<PV_m<<endl;
+	cout<<PV_d<<endl;
 	
 	return 0;
 }
-
-
 

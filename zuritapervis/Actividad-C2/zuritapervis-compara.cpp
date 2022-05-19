@@ -8,14 +8,13 @@
 using namespace std;
 int main () 
 {
-	float ZP_a,ZP_b;
-	cout<<"ingrese los valores ZP_a,ZP_b:"; cin>>ZP_a>>ZP_b;
-	if(ZP_a==ZP_b) {
+	float PV_a,PV_b;
+	cout<<"ingrese los valores ZP_a,ZP_b:"; cin>>PV_a>>PV_b;
+	if(PV_a==PV_b) {
 		cout<<"son iguales:";
 	}else
-		if(ZP_a>ZP_b) { cout<<"ZP_a es mayor";
-		}else{ cout<<"ZP_b es mayor";
+		if(PV_a>PV_b) { cout<<"PV_a es mayor";
+		}else{ cout<<"PV_b es mayor";
 		}
 	return 0;
 }
-

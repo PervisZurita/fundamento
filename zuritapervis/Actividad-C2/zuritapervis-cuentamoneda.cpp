@@ -7,38 +7,38 @@
 using namespace std;
 int main()
 {
-	int ZP_n,ZP_c,ZP_c1,ZP_c2,ZP_cl,ZP_cz;
-	float ZP_x,ZP_al,ZP_a,ZP_a1,ZP_a2,ZP_az;
-	ZP_c=0;
-	ZP_c1=0;
-	ZP_c2=0;
-	ZP_a=0;
-	ZP_a1=0;
-	ZP_a2=0;
+	int PV_n,PV_c,PV_c,PV_c2,PV_cl,PV_cz;
+	float PV_x,PV_al,PV_a,PV_a1,PV_a2,PV_az;
+	PV_c=0;
+	PV_c1=0;
+	PV_c2=0;
+	PV_a=0;
+	PV_a1=0;
+	PV_a2=0;
 	cout<<"\n\tCuenta Moneda\n\n"<<endl;
-	cout<<"Cantidad de monedas a ingresar: ";cin>>ZP_n;
+	cout<<"Cantidad de monedas a ingresar: ";cin>>PV_n;
 	do
 	{
-	cout<<"Ingrese el valor de la moneda (0.10 - 0.25): "; cin>>ZP_x;
+	cout<<"Ingrese el valor de la moneda (0.10 - 0.25): "; cin>>PV_x;
 	
-	ZP_c=ZP_c+1;
-		ZP_a=ZP_a+ZP_x;
-		if(ZP_x==0.25)
+	PV_c=PV_c+1;
+		PV_a=PV_a+PV_x;
+		if(PV_x==0.25)
 		{
-			ZP_c1=ZP_c1+1;
-			ZP_a1=ZP_x+ZP_a1;
+			PV_c1=PV_c1+1;
+			PV_a1=PV_x+PV_a1;
 		}else{
-			ZP_c2=ZP_c2+1;
-			ZP_a2=ZP_a2+ZP_x;
+			PV_c2=PV_c2+1;
+			PV_a2=PV_a2+PV_x;
 		}
 	}
-		while(ZP_c<ZP_n);
+		while(PV_c<PV_n);
 		cout<<"\n\tResultado\n\n"<<endl;
-		cout<<"Cantidad de monedas ingresadas: "<<ZP_c<<endl;
-		cout<<"Cantidad total de dinero contado: "<<ZP_a<<endl;
-		cout<<"Cantidad total de monedas de $0.10 ingresadas: "<<ZP_c2<<endl;
-		cout<<"Cantidad total en dinero de las monedas de $0.10: "<<ZP_a2<<endl;
-		cout<<"Cantidad total de monedas de $0.25 ingresadas: "<<ZP_c1<<endl;
-		cout<<"Cantidad total en dinero de las monedas de $0.25: "<<ZP_a1<<endl;
+		cout<<"Cantidad de monedas ingresadas: "<<PV_c<<endl;
+		cout<<"Cantidad total de dinero contado: "<<PV_a<<endl;
+		cout<<"Cantidad total de monedas de $0.10 ingresadas: "<<PV_c2<<endl;
+		cout<<"Cantidad total en dinero de las monedas de $0.10: "<<PV_a2<<endl;
+		cout<<"Cantidad total de monedas de $0.25 ingresadas: "<<PV_c1<<endl;
+		cout<<"Cantidad total en dinero de las monedas de $0.25: "<<PV_a1<<endl;
 		return 0;
 }
