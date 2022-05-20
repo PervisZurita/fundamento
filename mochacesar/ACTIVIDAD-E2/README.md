@@ -52,7 +52,7 @@ Su funcionamiento es el siguiente:
 
 // COMANDOS DE DESCARGA Y EJECUCION DE PROGRAMAS //
 
-1) Medieante este comando podrá descargar la carpeta con los archivos "git clone https://github.com/Hector-Lozada/programa"
+1) Medieante este comando podrá descargar la carpeta con los archivos "git clone https://github.com/PervisZurita/fundamentos.git"
 2) Con este comando podrá acceder a la carpeta contenedora de los archivos "cd programa"
 3) Con este comando podrás compilar el archivo requerido "g++ 'nombre del programa.cpp' -o 'nuevo nombre del programa'
 4) Con este comando podrás ejecutar el archivo "./'nombre del programa'"
