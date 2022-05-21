@@ -1,6 +1,6 @@
 //================================================
 //==> Nombre del programa: comparacion de dos numeros
-//==> Archivo : compara.cpp
+//==> Archivo :QuiñonezCanchingre-Compara.cpp
 //==>Autor: Alisson Quiñonez
 //==>Fecha de elaboración:2022-04-29 
 //==>Fecha ultima actualización:2022-05-17

@@ -17,7 +17,7 @@ do{
 		ac_a=ac_a+ac_x;
 	}while(ac_c<ac_N);
 
-		cout<<"suma total:"<<ac_a;
+	cout<<"suma total:"<<ac_a;
 cout<<endl<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa: Suma de dos número"<<endl;
 cout<<"//==> Archivo : QuinonezAlisson-SumaN.cpp"<<endl;
