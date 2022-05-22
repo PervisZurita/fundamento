@@ -1,11 +1,11 @@
 //================================================
 
 
-//==> Nombre del programa: Comparacion de 2 n鷐eros
+//==> Nombre del programa: Comparacion de 2 n煤meros
 //==> Archivo : MochaCesar-Compara.cpp
 //==>Autor: Cesar Mocha
-//==>Fecha de elaboraci髇: 2022-01-10
-//==>Fecha 趌tima actualizaci髇: 2022-05- 15
+//==>Fecha de elaboraci贸n: 2022-01-10
+//==>Fecha 脷ltima actualizaci贸n: 2022-05- 15
 
 
 //=================================================
@@ -13,21 +13,21 @@
 using namespace std;
 int main ()
 {
-        float mc_x,mc_y;
-        cout<<"ingrese los valores x y :"; cin>>mc_x>>mc_y;
-        if(mc_x==mc_y) {
+        float cz_x,cz_y;
+        cout<<"ingrese los valores x y :"; cin>>cz_x>>cz_y;
+        if(cz_x==cz_y) {
                 cout<<"son iguales:";
         }else{
-                if(mc_x>mc_y) { cout<<"x es mayor";
+                if(cz_x>cz_y) { cout<<"x es mayor";
                 }else{ cout<<"y es mayor";
                 }
         }
         cout<<"//================================================"<<endl;
-		cout<<"//==> Nombre del programa: Comparacion de 2 n鷐eros"<<endl;
+		cout<<"//==> Nombre del programa: Comparacion de 2 n煤meros"<<endl;
 		cout<<"//==> Archivo : MochaCesar-Compara.cpp"<<endl;
 		cout<<"//==>Autor: Cesar Mocha"<<endl;
-		cout<<"//==>Fecha de elaboraci髇: 2022-01-10"<<endl;
-		cout<<"//==>Fecha ultima actualizaci髇: 2022-05-15"<<endl;
+		cout<<"//==>Fecha de elaboraci贸n: 2022-01-10"<<endl;
+		cout<<"//==>Fecha ultima actualizaci贸n: 2022-05-15"<<endl;
 		cout<<"//================================================="<<endl;
         return 0;
 }
