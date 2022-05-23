@@ -1,6 +1,11 @@
 
-//================================================              //==> Nombre del programa:Punto de venta                        //==> Archivo :QuinonezAlisson-PuntoVenta.cpp                         //==>Autor: Alisson Quñonez                                     //==>Fecha de elaboración:2022-04-29                            //==>Fecha ultima actualización:2022-05-17                      //=================================================
-// 
+//================================================              
+//==> Nombre del programa:Punto de venta                       
+//==> Archivo :QuinonezAlisson-PuntoVenta.cpp                         
+//==>Autor: Alisson Quñonez                                    
+//==>Fecha de elaboración:2022-04-29                            
+//==>Fecha ultima actualización:2022-05-17                      
+//=================================================
 #include<iostream>
 using namespace std;
 int main ()
@@ -21,7 +26,13 @@ int main ()
 	cout<<" el cual tuvo un iva de:"<<ac_viva<<endl;
 	cout<<" y con un descuento de:"<<ac_vdes;
 
-	cout<<endl<<"//================================================"<<endl;                                                         cout<<"//==> Nombre del programa:Punto de venta"<<endl;    cout<<"//==> Archivo :QuinonezAlisson-PuntoVenta.cpp"<<endl;        cout<<"//==>Autor: Alisson Quiñonez"<<endl;                     cout<<"//==>Fecha de elaboración: 2022-04-29"<<endl;            cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;      cout<<"//================================================="<<endl;
+	cout<<endl<<"//================================================"<<endl;                                                         
+	cout<<"//==> Nombre del programa:Punto de venta"<<endl;   
+	cout<<"//==> Archivo :QuinonezAlisson-PuntoVenta.cpp"<<endl;        
+	cout<<"//==>Autor: Alisson Quiñonez"<<endl;                    
+	cout<<"//==>Fecha de elaboración: 2022-04-29"<<endl;            
+	cout<<"//==>Fecha ultima actualización: 2022-05-17"<<endl;      
+	cout<<"//================================================="<<endl;
 return 0;
 
 }
